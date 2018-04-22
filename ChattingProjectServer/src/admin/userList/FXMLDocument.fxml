@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="pane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1000.0" stylesheets="@styling.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.userList.adminUserListController">
+   <children>
+      <HBox prefHeight="60.0" prefWidth="1000.0" style="-fx-background-color: #233c47;">
+         <children>
+            <FlowPane hgap="30.0" prefHeight="57.0" prefWidth="987.0" style="-fx-background-color: #233c47;">
+               <children>
+                  <ImageView id="image" fx:id="home" fitHeight="59.0" fitWidth="65.0" onMousePressed="#HomeScreen" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/reports.png" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets left="25.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+                  <ComboBox id="box" fx:id="box" prefWidth="150.0" promptText="Setting" style="-fx-background-color: gray;" styleClass="-fx-prompt-text-fill: white;" stylesheets="@styling.css" />
+                  <ImageView fx:id="msg" fitHeight="39.0" fitWidth="56.0" onMousePressed="#MsgScreen" pickOnBounds="true" preserveRatio="true">
+                     <FlowPane.margin>
+                        <Insets left="500.0" />
+                     </FlowPane.margin>
+                     <image>
+                        <Image url="@../../resources/msg.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </FlowPane>
+         </children>
+      </HBox>
+      <VBox layoutY="49.0" prefHeight="501.0" prefWidth="143.0" style="-fx-background-color: gray;">
+         <children>
+            <FlowPane prefHeight="500.0" prefWidth="143.0" style="-fx-background-color: #233c47;" vgap="10.0">
+               <children>
+                  <ImageView fx:id="users" fitHeight="61.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/user.png" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+                  <Text fill="#f8f3f3" strokeType="OUTSIDE" strokeWidth="0.0" text="Users" wrappingWidth="80.244140625">
+                     <FlowPane.margin>
+                        <Insets left="20.0" />
+                     </FlowPane.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="status" fitHeight="52.0" fitWidth="54.0" onMousePressed="#statusScreen" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/600px-Ski_trail_rating_symbol-green_circle.svg.png" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets left="10.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+                  <Text fill="#f8f3f3" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" wrappingWidth="52.244140625">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <FlowPane.margin>
+                        <Insets left="20.0" />
+                     </FlowPane.margin>
+                  </Text>
+                  <ImageView fx:id="admins" fitHeight="43.0" fitWidth="45.0" onMousePressed="#loadScreen" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/admin-with-cogwheels.png" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets left="15.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+                  <Text fill="#f8f3f3" strokeType="OUTSIDE" strokeWidth="0.0" text="Admins" wrappingWidth="63.244140625">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <FlowPane.margin>
+                        <Insets left="15.0" />
+                     </FlowPane.margin>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets left="20.0" top="10.0" />
+               </padding>
+            </FlowPane>
+         </children>
+      </VBox>
+      <TableView fx:id="userList" layoutX="144.0" layoutY="135.0" prefHeight="357.0" prefWidth="855.0">
+        <columns>
+            <TableColumn fx:id="name" prefWidth="119.0" text="Name" />
+            <TableColumn fx:id="email" minWidth="0.0" prefWidth="158.0" text="Email" />
+            <TableColumn fx:id="country" prefWidth="184.0" text="country" />
+          <TableColumn fx:id="phone" prefWidth="144.0" text="phone no." />
+            <TableColumn fx:id="gender" prefWidth="249.0" text="Gender" />
+          <TableColumn minWidth="0.0" prefWidth="0.0" text="control" />
+        </columns>
+      </TableView>
+      <HBox layoutX="143.0" layoutY="65.0" prefHeight="70.0" prefWidth="863.0" style="-fx-background-color: orange;">
+         <children>
+            <FlowPane prefHeight="70.0" prefWidth="850.0">
+               <children>
+                  <Text fill="#f8f5f5" strokeType="OUTSIDE" strokeWidth="0.0" text="User List" wrappingWidth="237.783203125">
+                     <font>
+                        <Font name="System Bold" size="38.0" />
+                     </font>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets left="100.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </FlowPane>
+         </children>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets left="50.0" top="50.0" />
+         </opaqueInsets>
+      </HBox>
+      <Button fx:id="save" layoutX="759.0" layoutY="503.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: orange;" text="Save" textFill="#2c2929">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

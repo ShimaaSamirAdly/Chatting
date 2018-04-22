@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="SavedChat" type="SavedChatType" />
+    
+    <xs:complexType name="SavedChatType" >
+        <xs:sequence>
+            <xs:element name="message" type="messageType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="messageType" >
+        <xs:sequence>
+            <xs:element name="from" type="xs:string" />
+            <xs:element name="to" type="xs:string" />
+            <xs:element name="color" type="color" />
+            <xs:element name="fontSize" type="xs:int" />
+            <xs:element name="fontFamily" type="fontFamily" />
+            <xs:element name="fontStyle" type="xs:string" />
+            <xs:element name="fontWeight" type="xs:string" />
+            <xs:element name="messageBody" type="xs:string" />
+            <xs:element name="direction" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="color">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="#[0-9A-Fa-f]+|[0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+  
+    <xs:simpleType name="fontFamily">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Arial"/>
+            <xs:enumeration value="Times"/>
+            <xs:enumeration value="Helvetica"/>
+            <xs:enumeration value="Courier"/>
+            <xs:enumeration value="Verdana"/>
+            <xs:enumeration value="Georgia"/>
+            <xs:enumeration value="Palatino"/>
+            <xs:enumeration value="Garamond"/>
+            <xs:enumeration value="Impact"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

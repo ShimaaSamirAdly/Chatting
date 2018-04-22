@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 6, 2018, 6:41:32 PM
+    Author     : hazem
+*/
+
+#text{
+    
+    
+    -fx-border-style: none;
+   
+    -fx-border-color: transparent transparent white transparent;
+    
+    -fx-background-color:  #2EA1DA;
+    
+    -fx-border-width: 1px;
+    
+    -fx-prompt-text-fill: white;
+    
+    -fx-text-fill: white;
+    
+    -fx-background-image:url('name.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px;
+   
+}
+#username{
+    
+    
+    -fx-border-style: none;
+   
+    -fx-border-color: transparent transparent white transparent;
+    
+    -fx-background-color:  #2EA1DA;
+    
+    -fx-border-width: 1px;
+    
+    -fx-prompt-text-fill: white;
+    
+    -fx-text-fill: white;
+    
+    -fx-background-image:url('name.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px;
+   
+}
+#phone{
+    
+    
+    -fx-border-style: none;
+   
+    -fx-border-color: transparent transparent white transparent;
+    
+    -fx-background-color:  #2EA1DA;
+    
+    -fx-border-width: 1px;
+    
+    -fx-prompt-text-fill: white;
+    
+    -fx-text-fill: white;
+    
+    -fx-background-image:url('name.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px;
+   
+}
+
+#button{
+    -fx-background-color: #FED350;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 22;
+    -fx-text-fill: white;
+    
+}
+#button:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-text-fill:#FED350;
+}
+#button:pressed{
+    -fx-border-color: transparent;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-text-fill:#2EA1DA;
+    -fx-rotate: 10; 
+}
+
+#pass{
+    
+    -fx-border-style: none;
+   
+    -fx-border-color: transparent transparent white transparent;
+    
+    -fx-background-color:  #2EA1DA;
+    
+    -fx-border-width: 1px;
+    
+    -fx-prompt-text-fill: white;
+    
+    -fx-text-fill: white;
+    
+    -fx-background-image:url('pw.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 10px;
+   
+}
+#mail{
+    
+    -fx-border-style: none;
+   
+    -fx-border-color: transparent transparent white transparent;
+    
+    -fx-background-color:  #2EA1DA;
+    
+    -fx-border-width: 1px;
+    
+    -fx-prompt-text-fill: white;
+    
+    -fx-text-fill: white;
+    
+    -fx-background-image:url('email.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 15px;
+   
+}

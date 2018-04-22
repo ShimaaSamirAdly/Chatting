@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedChat>
+    <message>
+        <from>Eslam</from>
+        <to>Hazem</to>
+        <color>blue</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my friend1</messageBody>
+        <direction>left</direction>
+    </message>
+    <message>
+        <from>Hazem</from>
+        <to>Eslam</to>
+        <color>red</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Times</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my team member2</messageBody>
+        <direction>right</direction>
+    </message>
+    <message>
+        <from>Eslam</from>
+        <to>Hazem</to>
+        <color>blue</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my friend3</messageBody>
+        <direction>left</direction>
+    </message>
+    <message>
+        <from>Eslam</from>
+        <to>Hazem</to>
+        <color>blue</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my friend4</messageBody>
+        <direction>left</direction>
+    </message>
+    <message>
+        <from>Hazem</from>
+        <to>Eslam</to>
+        <color>red</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Times</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my team member5</messageBody>
+        <direction>right</direction>
+    </message>
+    <message>
+        <from>Hazem</from>
+        <to>Eslam</to>
+        <color>red</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my team member6</messageBody>
+        <direction>right</direction>
+    </message>
+    <message>
+        <from>Hazem</from>
+        <to>Eslam</to>
+        <color>red</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my team member7</messageBody>
+        <direction>right</direction>
+    </message>
+    <message>
+        <from>Eslam</from>
+        <to>Hazem</to>
+        <color>black</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Times</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my friend8</messageBody>
+        <direction>left</direction>
+    </message>
+    <message>
+        <from>2</from>
+        <to>3</to>
+        <color>0xffffffff</color>
+        <fontSize>80</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>regular</fontStyle>
+        <fontWeight>regular</fontWeight>
+        <messageBody>h</messageBody>
+        <direction>left</direction>
+    </message>
+</SavedChat>

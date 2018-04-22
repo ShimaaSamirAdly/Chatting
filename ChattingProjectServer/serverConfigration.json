@@ -1,0 +1,6 @@
+{
+    "databaseDriver": "com.mysql.jdbc.Driver",
+    "databaseScema" :"jdbc:mysql://localhost:3306/chatting",
+    "databaseUserName":"shimaa",
+    "databasePassWord" :"12345678"
+}

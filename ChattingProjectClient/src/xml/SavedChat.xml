@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type= "text/xsl" href= "SavedChat.xsl"?>
+<SavedChat xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+           xsi:noNamespaceSchemaLocation='SavedChat.xsd'>
+    <message>
+        <from>Eslam</from>
+        <to>Hazem</to>
+        <color>#8456</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Arial</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my friend1</messageBody>
+        <direction>left</direction>
+    </message>
+    <message>
+        <from>Hazem</from>
+        <to>Eslam</to>
+        <color>#8456</color>
+        <fontSize>15</fontSize>
+        <fontFamily>Times</fontFamily>
+        <fontStyle>italic</fontStyle>
+        <fontWeight>bold</fontWeight>
+        <messageBody>hello my team member2</messageBody>
+        <direction>right</direction>
+    </message>
+</SavedChat>
